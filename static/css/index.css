@@ -1,32 +1,54 @@
-#textInput {
-    border: none;
-    border-bottom: 3px solid aqua;
+.title {
+    text-align: center;
 }
 
-.userText {
-    color: white;
-    font-family: monospace;
-    font-size: 17px;
+div.panel-default {
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.4);
+}
+
+div.chatbox {
+    padding: .3em;
+    height: 250px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    /* overflow-y: auto; */
+    border: 1px solid #ced4da;
+    border-radius: .5em;
+}
+
+#textInput {
+    border: none;
+    border: 1px solid #ced4da;
+}
+
+.user {
+    /* color: white; */
+    /* font-family: monospace; */
+    font-size: 110%;
     text-align: right;
     line-height: 30px;
 }
 
-.userText span {
-    background-color: #009688;
-    padding: 10px;
-    border-radius: 2px;
+.user span {
+    /* background-color: #009688; */
+    padding: .1em;
+    max-width: 80%;
+    /* border: 1px solid #ced4da;
+    border-radius: .2em; */
 }
 
-.botText {
-    color: white;
-    font-family: monospace;
-    font-size: 17px;
+.bot {
+    /* color: white; */
+    /* font-family: monospace; */
+    font-size: 110%;
     text-align: left;
     line-height: 30px;
 }
 
-.botText span {
-    background-color: #EF5350;
-    padding: 10px;
-    border-radius: 2px;
+.bot span {
+    /* background-color: #EF5350; */
+    padding: .1em;
+    max-width: 80%;
+    /* border: 1px solid #ced4da;
+    border-radius: .2em; */
 }
